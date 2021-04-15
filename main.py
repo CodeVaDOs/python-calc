@@ -1,2 +1,4 @@
-print("hello world!")
-print("Hello 123")
+import telebot
+from config import TOKEN
+
+bot = telebot.TeleBot(TOKEN)
