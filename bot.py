@@ -1,6 +1,7 @@
 from main import bot
-import commands.randomImg
+from handlers.randomImg import send_photo_command
+from handlers.messageText import message_text
 
-bot.add_message_handler({commands.randomImg})
-
+bot.add_message_handler(message_text)
+bot.add_message_handler(send_photo_command)
 bot.polling()
