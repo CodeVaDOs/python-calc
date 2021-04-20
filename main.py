@@ -1,6 +1,7 @@
 import telebot
+
 from config import TOKEN
-from func import json_parse
+from json_parsing import json_parse
 
 bot = telebot.TeleBot(TOKEN)
 

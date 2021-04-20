@@ -8,7 +8,7 @@ def json_parse(file_path):
     remove_file(file_path)
     print(pySchedule)
     str1 = " "
-    return str1.join(get_values(pySchedule,[]))
+    return str1.join(get_values(pySchedule, []))
 
 
 def get_values(json_obj, _list=[]):
